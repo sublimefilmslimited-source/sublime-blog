@@ -110,3 +110,10 @@
   .bl-cta{padding:28px 22px}
   .bl-author{flex-direction:column}
 }
+
+/* in-article infographics */
+.bl-body .bl-fig{margin:2em 0}
+.bl-fig a{display:block;text-decoration:none}
+.bl-fig img{width:100%;height:auto;border-radius:16px;border:1px solid var(--line);box-shadow:0 10px 30px rgba(11,11,12,.06)}
+.bl-fig figcaption{font-size:15px;line-height:1.5;color:var(--grey);margin-top:10px;text-align:center}
+@media (min-width:992px){.bl-body .bl-fig.tall{max-width:560px;margin-inline:auto}}

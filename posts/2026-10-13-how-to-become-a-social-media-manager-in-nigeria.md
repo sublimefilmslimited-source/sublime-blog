@@ -11,6 +11,55 @@ keyword: how to become a social media manager in Nigeria
 keywords: [social media manager Nigeria, social media management course, social media manager skills, how to get social media clients, freelance social media manager]
 image_alt: "Guide cover: How to Become a Social Media Manager in Nigeria"
 cta: school
+images:
+  - name: how-to-become-a-social-media-manager-in-nigeria-8-steps
+    type: steps
+    title: "How to become a social media manager in Nigeria: 8 steps"
+    alt: "Infographic of the 8 steps to become a social media manager in Nigeria, from learning core skills to reporting results"
+    caption: "The 8 steps to becoming a social media manager in Nigeria, at a glance."
+    items:
+      - "Learn the core skills: strategy, content, copywriting, analytics"
+      - "Choose a niche: food, fashion, beauty, real estate, events…"
+      - "Practise on real accounts: your page, a friend's business, your church"
+      - "Build a simple portfolio: 2–3 short case studies"
+      - "Set up your toolkit: Canva, CapCut, Meta Business Suite"
+      - "Find your first clients: your network plus 20 targeted pitches"
+      - "Price your services: monthly packages, not per post"
+      - "Report results and keep learning: a clear monthly report"
+  - name: social-media-manager-skills-checklist
+    type: checklist
+    title: "7 skills every social media manager needs"
+    alt: "Checklist of the 7 core skills a social media manager needs: content strategy, copywriting, design, short-form video, community management, analytics and client communication"
+    caption: "Save this checklist: the 7 core skills to learn, in order."
+    items:
+      - "Content strategy: turn business goals into a monthly plan"
+      - "Copywriting: captions that stop the scroll (AIDA)"
+      - "Basic design: clean, on-brand graphics in Canva"
+      - "Short-form video: simple Reels and TikToks on your phone"
+      - "Community management: fast, professional replies"
+      - "Analytics: read insights and know which numbers matter"
+      - "Client communication: onboarding, plans, reports, feedback"
+  - name: social-media-manager-portfolio-case-study-template
+    type: table
+    title: "Social media manager portfolio: case study template"
+    alt: "Template showing the five parts of a social media manager portfolio case study: the brand, the problem, what you did, the result and what you learnt"
+    caption: "Use these five parts for every case study in your portfolio."
+    items:
+      - ["Section", "What to include"]
+      - ["The brand", "Who they are and who they sell to"]
+      - ["The problem", "What was not working before you started"]
+      - ["What you did", "Your plan, sample posts, captions and videos"]
+      - ["The result", "Reach, followers gained, enquiries, sales"]
+      - ["What you learnt", "One honest lesson that shows maturity"]
+  - name: social-media-manager-client-pitch-message-example
+    type: chat
+    title: "Example pitch message to win your first social media client"
+    alt: "Example WhatsApp pitch message a social media manager can send to a cake business owner to offer a free mini plan for their Instagram page"
+    caption: "A short, specific pitch you can adapt for your first clients."
+    items:
+      - "Hi Ada, I love your cakes and I've been following your page. 🎂"
+      - "I noticed you post mostly photos and haven't shared any Reels yet. Short videos of your decorating process could bring you a lot more reach."
+      - "I'm a social media manager and I'd be happy to share a free mini plan for your page. Would that be useful?"
 faq:
   - q: "Do I need a degree to become a social media manager in Nigeria?"
     a: "No. Clients and employers care about what you can show them: a portfolio of real accounts you have managed, the results you got and how clearly you explain your work. A degree in marketing or mass communication can help, but it is not required."
@@ -33,6 +82,8 @@ Every week, someone sends us a version of the same message: *"I want to become a
 It is a good question, because the job looks simple from the outside. Post nice pictures, reply to comments, done. In reality, the social media managers who get paid well are the ones who think like marketers. They understand the business, plan content with a goal in mind, and can show a client what changed because of their work.
 
 This guide walks you through the path we teach at the School of Social Media Managers, step by step.
+
+{{image:how-to-become-a-social-media-manager-in-nigeria-8-steps}}
 
 ## What does a social media manager actually do?
 
@@ -60,6 +111,8 @@ You do not need to be an expert at everything on day one, but you need a working
 7. **Client communication:** onboarding a client, presenting a plan, sharing reports and handling feedback.
 
 Learn them in that order, because each one builds on the last.
+
+{{image:social-media-manager-skills-checklist}}
 
 ## Step 2: Choose a niche (at least to start)
 
@@ -91,6 +144,8 @@ A portfolio does not need a fancy website. A clean PDF or a Google Drive folder 
 
 Two or three strong case studies are worth more than ten random designs.
 
+{{image:social-media-manager-portfolio-case-study-template}}
+
 ## Step 5: Set up your toolkit
 
 You can run an account professionally with free or low-cost tools:
@@ -113,6 +168,8 @@ Your first clients will almost always come from people who already know you. Sta
 4. **Follow up once,** politely, after three or four days.
 
 Here is a simple pitch you can adapt:
+
+{{image:social-media-manager-client-pitch-message-example}}
 
 > "Hi Ada, I love your cakes and I've been following your page. I noticed you post mostly photos and haven't shared any Reels yet. Short videos of your decorating process could bring you a lot more reach. I'm a social media manager and I'd be happy to share a free mini plan for your page. Would that be useful?"
 

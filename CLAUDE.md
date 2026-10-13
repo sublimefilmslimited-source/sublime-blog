@@ -11,7 +11,7 @@ of every hour. **Whatever is pushed to `main` goes live within the hour.**
 2. Research before writing (WebSearch): what currently ranks for the keyword, what people
    ask, and any platform facts you state. Only state facts you have checked this week.
 3. Write `posts/YYYY-MM-DD-<slug>.md` dated today (front matter format: copy the newest post).
-4. `python3 build.py` and fix any warning. Check the output HTML renders (headings, FAQ, links).
+4. `python3 build.py` (needs: pip install --break-system-packages markdown pyyaml pillow fonttools) and fix any warning. Check the output HTML renders (headings, FAQ, links).
 5. Tick the topic in `TOPICS.md` (add the URL), commit, `git push origin main`.
 6. Tell the owner (Zelia) the title, the link, and one line on why that topic.
 
@@ -27,6 +27,15 @@ of every hour. **Whatever is pushed to `main` goes live within the hour.**
   results you may cite: grew the Ilorin Emirate Mall account from 0 to 13K followers in 3 months.
 - First person plural ("we", Sublime Media / the School) is fine; Zelia is the author.
 - Never mention AI writing the post.
+
+## Images (every post) — for Google Images
+- Add 3–4 original infographics via front matter `images:` (types: steps, checklist, table, chat;
+  see graphics.py and the first post for the format) and place each with `{{image:<name>}}`
+  right after the paragraph it illustrates.
+- `name`: keyword-rich, hyphenated, unique (e.g. instagram-content-calendar-template).
+- `alt`: describe exactly what the image shows, using the topic naturally (no keyword stuffing).
+- `caption`: one helpful sentence. Keep item text short (one line label + short detail).
+- Images get WebP + JPG, width/height, ImageObject schema and an image sitemap automatically.
 
 ## SEO checklist (every post)
 - `keyword`: one primary search phrase with real intent; put it in the title, the

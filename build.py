@@ -14,6 +14,8 @@ from xml.sax.saxutils import escape as xesc
 import markdown, yaml
 from PIL import Image, ImageDraw, ImageFont
 
+import graphics
+
 ROOT = Path(__file__).resolve().parent
 POSTS = ROOT / "posts"
 OUT = ROOT / "public" / "blog"
@@ -218,7 +220,7 @@ def cover(post, dest):
     med = ImageFont.truetype(str(SRC / "Gilroy-Medium.ttf"), 28)
     small = ImageFont.truetype(str(SRC / "Gilroy-Bold.ttf"), 24)
     d.text((80, 70), post["category"].upper(), font=small, fill="#d80707")
-    title = post.get("cover_title") or post["title"]
+    title = graphics._clean(post.get("cover_title") or post["title"], SRC)
     size = 64
     while True:
         bold = ImageFont.truetype(str(SRC / "Gilroy-Bold.ttf"), size)
@@ -252,10 +254,28 @@ PERSON = {"@type": "Person", "@id": SITE + "/#zelia", "name": AUTHOR["name"], "j
 
 
 # ---------------------------------------------------------------- pages
+def figure_html(p, spec):
+    base = f"/blog/{p['slug']}/{spec['name']}"
+    w, h = spec["_size"]
+    cap = html.escape(spec.get("caption", ""))
+    cls = "bl-fig tall" if h > w * 1.1 else "bl-fig"
+    return (f'<figure class="{cls}" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">'
+            f'<a href="{base}.jpg"><picture><source srcset="{base}.webp" type="image/webp">'
+            f'<img src="{base}.jpg" alt="{html.escape(spec["alt"])}" width="{w}" height="{h}" loading="lazy" decoding="async" itemprop="contentUrl"></picture></a>'
+            + (f'<figcaption itemprop="caption">{cap}</figcaption>' if cap else "")
+            + '<meta itemprop="creditText" content="Sublime Media Limited"></figure>')
+
+
 def post_html(p, posts):
-    body_html, toc = render_md(p["body_md"])
+    md_src = p["body_md"]
+    for spec in p.get("images", []):
+        tag = "{{image:" + spec["name"] + "}}"
+        if tag not in md_src:
+            sys.exit(f"{p['slug']}: image '{spec['name']}' has no {tag} placeholder in the text")
+        md_src = md_src.replace(tag, "\n\n" + figure_html(p, spec) + "\n\n")
+    body_html, toc = render_md(md_src)
     rt = read_time(p["body_md"])
-    img = f"/blog/{p['slug']}/cover.jpg"
+    img = f"/blog/{p['slug']}/{p['slug']}.jpg"
     toc_html = ""
     if len(toc) >= 3:
         toc_html = ('<nav class="bl-toc" aria-label="On this page"><b>On this page</b><ol>'
@@ -319,7 +339,10 @@ def post_html(p, posts):
 </article>"""
     ld = [{"@context": "https://schema.org", "@type": "BlogPosting", "@id": p["url"] + "#post",
            "mainEntityOfPage": p["url"], "headline": p["title"][:110], "description": p["description"],
-           "image": [SITE + img], "datePublished": p["date"].isoformat(), "dateModified": p["updated"].isoformat(),
+           "image": [{"@type": "ImageObject", "url": SITE + img, "width": 1200, "height": 630, "caption": p["title"]}]
+                    + [{"@type": "ImageObject", "url": f"{SITE}/blog/{p['slug']}/{s['name']}.jpg", "caption": s.get("caption") or s["alt"],
+                        "width": s["_size"][0], "height": s["_size"][1], "creditText": "Sublime Media Limited",
+                        "creator": {"@id": SITE + "/#org"}, "copyrightNotice": "© Sublime Media Limited"} for s in p.get("images", [])], "datePublished": p["date"].isoformat(), "dateModified": p["updated"].isoformat(),
            "author": PERSON, "publisher": ORG, "articleSection": p["category"], "inLanguage": "en-NG",
            "keywords": ", ".join([p["keyword"]] + p.get("keywords", [])),
            "wordCount": len(re.findall(r"\w+", p["body_md"]))},
@@ -336,7 +359,7 @@ def post_html(p, posts):
 
 def card(p):
     return f"""<a class="bl-card" href="{p['path']}">
-  <img src="/blog/{p['slug']}/cover.jpg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+  <img src="/blog/{p['slug']}/{p['slug']}.jpg" alt="" width="1200" height="630" loading="lazy" decoding="async">
   <div><span>{html.escape(p['category'])} · {read_time(p['body_md'])} min read</span>
   <h3>{html.escape(p['title'])}</h3><p>{html.escape(p['description'])}</p>
   <time datetime="{p['date'].isoformat()}">{fmt_date(p['date'])}</time></div></a>"""
@@ -356,7 +379,7 @@ def index_html(posts):
     feat_html = ""
     if feat:
         feat_html = f"""<a class="bl-feature" href="{feat['path']}">
-      <img src="/blog/{feat['slug']}/cover.jpg" alt="" width="1200" height="630" fetchpriority="high">
+      <img src="/blog/{feat['slug']}/{feat['slug']}.jpg" alt="" width="1200" height="630" fetchpriority="high">
       <div><span class="sm-pill"><i></i>Latest · {html.escape(feat['category'])}</span><h2>{html.escape(feat['title'])}</h2>
       <p>{html.escape(feat['description'])}</p><b>Read the article →</b></div></a>"""
     body = f"""
@@ -397,9 +420,13 @@ def feed_xml(posts):
 
 
 def sitemap_xml(posts):
-    urls = [(BLOG + "/", posts[0]["updated"] if posts else TODAY)] + [(p["url"], p["updated"]) for p in posts]
-    body = "".join(f"\n  <url><loc>{u}</loc><lastmod>{d.isoformat()}</lastmod></url>" for u, d in urls)
-    return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}\n</urlset>\n'
+    body = f"\n  <url><loc>{BLOG}/</loc><lastmod>{(posts[0]['updated'] if posts else TODAY).isoformat()}</lastmod></url>"
+    for p in posts:
+        imgs = [f"{BLOG}/{p['slug']}/{p['slug']}.jpg"] + [f"{BLOG}/{p['slug']}/{s['name']}.jpg" for s in p.get("images", [])]
+        body += (f"\n  <url><loc>{p['url']}</loc><lastmod>{p['updated'].isoformat()}</lastmod>"
+                 + "".join(f"<image:image><image:loc>{u}</image:loc></image:image>" for u in imgs) + "</url>")
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+            f'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">{body}\n</urlset>\n')
 
 
 def main():
@@ -417,7 +444,9 @@ def main():
     for p in posts:
         d = OUT / p["slug"]
         d.mkdir(parents=True)
-        cover(p, d / "cover.jpg")
+        cover(p, d / f"{p['slug']}.jpg")
+        for spec in p.get("images", []):
+            spec["_size"] = graphics.render(spec, SRC, d, p["category"])
         (d / "index.html").write_text(post_html(p, posts), encoding="utf-8")
     (OUT / "index.html").write_text(index_html(posts), encoding="utf-8")
     (OUT / "feed.xml").write_text(feed_xml(posts), encoding="utf-8")
