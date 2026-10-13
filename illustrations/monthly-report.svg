@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f5f5f6"/><stop offset="1" stop-color="#fdf2f2"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1090" cy="580" r="200" fill="#d80707" opacity=".07"/>
+  <polygon points="0,0 230,0 0,180" fill="#0b0b0c" opacity=".06"/>
+  <!-- laptop dashboard -->
+  <g>
+    <rect x="90" y="110" width="640" height="410" rx="22" fill="#0b0b0c"/>
+    <rect x="110" y="130" width="600" height="370" rx="10" fill="#ffffff"/>
+    <rect x="50" y="520" width="720" height="22" rx="11" fill="#5d5f64"/>
+    <!-- KPI tiles -->
+    <g>
+      <rect x="132" y="152" width="170" height="86" rx="12" fill="#fdf2f2"/><rect x="148" y="170" width="70" height="10" rx="5" fill="#8b8c90"/><rect x="148" y="192" width="110" height="24" rx="8" fill="#d80707"/>
+      <rect x="324" y="152" width="170" height="86" rx="12" fill="#f5f5f6"/><rect x="340" y="170" width="70" height="10" rx="5" fill="#8b8c90"/><rect x="340" y="192" width="90" height="24" rx="8" fill="#0b0b0c"/>
+      <rect x="516" y="152" width="172" height="86" rx="12" fill="#f5f5f6"/><rect x="532" y="170" width="70" height="10" rx="5" fill="#8b8c90"/><rect x="532" y="192" width="100" height="24" rx="8" fill="#0b0b0c"/>
+    </g>
+    <!-- bar chart -->
+    <rect x="132" y="258" width="350" height="222" rx="12" fill="#f5f5f6"/>
+    <g fill="#c9cacd"><rect x="160" y="400" width="34" height="56" rx="5"/><rect x="210" y="380" width="34" height="76" rx="5"/></g>
+    <g fill="#d80707"><rect x="260" y="350" width="34" height="106" rx="5"/><rect x="310" y="320" width="34" height="136" rx="5"/><rect x="360" y="300" width="34" height="156" rx="5"/><rect x="410" y="276" width="34" height="180" rx="5"/></g>
+    <!-- donut -->
+    <rect x="500" y="258" width="188" height="222" rx="12" fill="#f5f5f6"/>
+    <circle cx="594" cy="356" r="58" fill="none" stroke="#e6e6e9" stroke-width="26"/>
+    <circle cx="594" cy="356" r="58" fill="none" stroke="#d80707" stroke-width="26" stroke-dasharray="240 365" transform="rotate(-90 594 356)"/>
+    <circle cx="594" cy="356" r="58" fill="none" stroke="#0b0b0c" stroke-width="26" stroke-dasharray="70 365" stroke-dashoffset="-240" transform="rotate(-90 594 356)"/>
+    <rect x="540" y="440" width="110" height="12" rx="6" fill="#8b8c90"/>
+  </g>
+  <!-- report document -->
+  <g>
+    <g transform="rotate(5 950 330)">
+      <rect x="810" y="120" width="290" height="400" rx="18" fill="#ffffff" stroke="#e6e6e9" stroke-width="5"/>
+      <rect x="810" y="120" width="290" height="70" rx="18" fill="#d80707"/><rect x="810" y="170" width="290" height="20" fill="#d80707"/>
+      <text x="955" y="166" text-anchor="middle" font-family="Gilroy, Arial, sans-serif" font-weight="700" font-size="24" fill="#ffffff" letter-spacing="1">MONTHLY REPORT</text>
+      <g font-family="Gilroy, Arial, sans-serif" font-weight="700" font-size="34" fill="#d80707">
+        <text x="842" y="262">1</text><text x="842" y="352">2</text><text x="842" y="442">3</text>
+      </g>
+      <g fill="#0b0b0c"><rect x="880" y="236" width="180" height="14" rx="7"/><rect x="880" y="326" width="160" height="14" rx="7"/><rect x="880" y="416" width="190" height="14" rx="7"/></g>
+      <g fill="#c9cacd"><rect x="880" y="260" width="130" height="10" rx="5"/><rect x="880" y="350" width="150" height="10" rx="5"/><rect x="880" y="440" width="110" height="10" rx="5"/></g>
+    </g>
+    <circle cx="1090" cy="520" r="44" fill="#0b0b0c"/>
+    <path d="M1070 520 l14 14 l26 -28" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

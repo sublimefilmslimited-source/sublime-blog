@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fdf2f2"/><stop offset="1" stop-color="#f5f5f6"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="600" r="200" fill="#0b0b0c" opacity=".05"/>
+  <polygon points="0,0 260,0 0,200" fill="#d80707" opacity=".07"/>
+  <!-- target -->
+  <circle cx="600" cy="350" r="190" fill="#ffffff" stroke="#e6e6e9" stroke-width="6"/>
+  <circle cx="600" cy="350" r="150" fill="#d80707"/>
+  <circle cx="600" cy="350" r="110" fill="#ffffff"/>
+  <circle cx="600" cy="350" r="70" fill="#d80707"/>
+  <circle cx="600" cy="350" r="32" fill="#ffffff"/>
+  <!-- arrow -->
+  <g transform="rotate(-28 600 350)">
+    <rect x="600" y="344" width="215" height="12" rx="6" fill="#0b0b0c"/>
+    <polygon points="590,350 626,330 626,370" fill="#0b0b0c"/>
+    <polygon points="790,350 835,320 845,350 835,380" fill="#d80707"/>
+    <polygon points="765,350 805,322 815,350 805,378" fill="#a90505"/>
+  </g>
+  <!-- niche cards -->
+  <g font-family="Gilroy, Arial, sans-serif" font-weight="700" font-size="22" fill="#0b0b0c">
+    <!-- food -->
+    <rect x="90" y="110" width="200" height="150" rx="20" fill="#ffffff" stroke="#e6e6e9" stroke-width="4"/>
+    <ellipse cx="190" cy="185" rx="62" ry="22" fill="#f5f5f6" stroke="#0b0b0c" stroke-width="4"/>
+    <path d="M150 182 q40 -50 80 0z" fill="#d80707"/>
+    <circle cx="175" cy="168" r="6" fill="#ffd27a"/><circle cx="200" cy="164" r="6" fill="#2f8f5b"/>
+    <text x="190" y="242" text-anchor="middle">Food</text>
+    <!-- fashion -->
+    <rect x="90" y="400" width="200" height="150" rx="20" fill="#ffffff" stroke="#e6e6e9" stroke-width="4"/>
+    <path d="M168 425 l22 12 l22 -12 l28 18 l-12 22 l-14 -6 v52 h-48 v-52 l-14 6 l-12 -22z" fill="#0b0b0c"/>
+    <text x="190" y="532" text-anchor="middle">Fashion</text>
+    <!-- beauty -->
+    <rect x="910" y="110" width="200" height="150" rx="20" fill="#ffffff" stroke="#e6e6e9" stroke-width="4"/>
+    <rect x="990" y="160" width="40" height="56" rx="6" fill="#0b0b0c"/>
+    <path d="M994 160 v-22 q16 -16 32 0 v22z" fill="#d80707"/>
+    <text x="1010" y="242" text-anchor="middle">Beauty</text>
+    <!-- real estate -->
+    <rect x="910" y="400" width="200" height="150" rx="20" fill="#ffffff" stroke="#e6e6e9" stroke-width="4"/>
+    <polygon points="1010,420 1060,462 960,462" fill="#d80707"/>
+    <rect x="972" y="460" width="76" height="52" fill="#0b0b0c"/>
+    <rect x="1000" y="482" width="20" height="30" fill="#ffffff"/>
+    <text x="1010" y="532" text-anchor="middle">Real estate</text>
+  </g>
+  <!-- connector dashes -->
+  <g stroke="#c9cacd" stroke-width="4" stroke-dasharray="4 12" stroke-linecap="round" fill="none">
+    <path d="M290 185 C360 200 400 240 440 270"/><path d="M290 475 C360 460 400 430 440 410"/>
+    <path d="M910 185 C840 200 800 240 760 270"/><path d="M910 475 C840 460 800 430 760 410"/>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f5f5f6"/><stop offset="1" stop-color="#fdf2f2"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="140" cy="140" r="180" fill="#d80707" opacity=".07"/>
+  <polygon points="1200,675 1200,420 940,675" fill="#0b0b0c" opacity=".06"/>
+  <!-- 30-day calendar -->
+  <g>
+    <rect x="80" y="170" width="330" height="360" rx="24" fill="#ffffff" stroke="#e6e6e9" stroke-width="5"/>
+    <rect x="80" y="170" width="330" height="70" rx="24" fill="#0b0b0c"/><rect x="80" y="210" width="330" height="30" fill="#0b0b0c"/>
+    <text x="245" y="217" text-anchor="middle" font-family="Gilroy, Arial, sans-serif" font-weight="700" font-size="28" fill="#ffffff">30 DAYS</text>
+    <g fill="#d80707">
+      <circle cx="125" cy="280" r="17"/><circle cx="185" cy="280" r="17"/><circle cx="245" cy="280" r="17"/><circle cx="305" cy="280" r="17"/><circle cx="365" cy="280" r="17"/>
+      <circle cx="125" cy="340" r="17"/><circle cx="185" cy="340" r="17"/><circle cx="245" cy="340" r="17"/><circle cx="305" cy="340" r="17"/><circle cx="365" cy="340" r="17"/>
+      <circle cx="125" cy="400" r="17"/><circle cx="185" cy="400" r="17"/><circle cx="245" cy="400" r="17"/>
+    </g>
+    <g fill="#f0f0f2"><circle cx="305" cy="400" r="17"/><circle cx="365" cy="400" r="17"/><circle cx="125" cy="460" r="17"/><circle cx="185" cy="460" r="17"/><circle cx="245" cy="460" r="17"/><circle cx="305" cy="460" r="17"/><circle cx="365" cy="460" r="17"/></g>
+    <g stroke="#ffffff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M117 280 l6 6 l11 -12"/><path d="M177 280 l6 6 l11 -12"/><path d="M237 280 l6 6 l11 -12"/><path d="M297 280 l6 6 l11 -12"/><path d="M357 280 l6 6 l11 -12"/>
+      <path d="M117 340 l6 6 l11 -12"/><path d="M177 340 l6 6 l11 -12"/><path d="M237 340 l6 6 l11 -12"/><path d="M297 340 l6 6 l11 -12"/><path d="M357 340 l6 6 l11 -12"/>
+      <path d="M117 400 l6 6 l11 -12"/><path d="M177 400 l6 6 l11 -12"/><path d="M237 400 l6 6 l11 -12"/>
+    </g>
+  </g>
+  <!-- phone with profile grid -->
+  <g>
+    <rect x="480" y="60" width="300" height="560" rx="42" fill="#0b0b0c"/>
+    <rect x="497" y="80" width="266" height="520" rx="28" fill="#ffffff"/>
+    <circle cx="545" cy="140" r="30" fill="#d80707"/><circle cx="545" cy="140" r="22" fill="#ffffff"/><circle cx="545" cy="140" r="16" fill="#0b0b0c"/>
+    <rect x="590" y="122" width="40" height="12" rx="6" fill="#0b0b0c"/><rect x="645" y="122" width="40" height="12" rx="6" fill="#0b0b0c"/><rect x="700" y="122" width="40" height="12" rx="6" fill="#0b0b0c"/>
+    <rect x="590" y="144" width="40" height="8" rx="4" fill="#c9cacd"/><rect x="645" y="144" width="40" height="8" rx="4" fill="#c9cacd"/><rect x="700" y="144" width="40" height="8" rx="4" fill="#c9cacd"/>
+    <rect x="517" y="188" width="226" height="34" rx="10" fill="#d80707"/>
+    <g>
+      <rect x="507" y="236" width="80" height="80" fill="#f7c6cf"/><rect x="590" y="236" width="80" height="80" fill="#0b0b0c"/><rect x="673" y="236" width="80" height="80" fill="#d80707"/>
+      <rect x="507" y="319" width="80" height="80" fill="#5d5f64"/><rect x="590" y="319" width="80" height="80" fill="#ffd27a"/><rect x="673" y="319" width="80" height="80" fill="#f7c6cf"/>
+      <rect x="507" y="402" width="80" height="80" fill="#d80707"/><rect x="590" y="402" width="80" height="80" fill="#f7c6cf"/><rect x="673" y="402" width="80" height="80" fill="#0b0b0c"/>
+      <rect x="507" y="485" width="80" height="80" fill="#ffd27a"/><rect x="590" y="485" width="80" height="80" fill="#d80707"/><rect x="673" y="485" width="80" height="80" fill="#5d5f64"/>
+    </g>
+    <polygon points="620,262 620,290 644,276" fill="#ffffff"/>
+    <polygon points="703,428 703,456 727,442" fill="#ffffff"/>
+  </g>
+  <!-- growth chart -->
+  <g>
+    <rect x="850" y="250" width="290" height="230" rx="24" fill="#ffffff" stroke="#e6e6e9" stroke-width="5"/>
+    <g fill="#f0f0f2"><rect x="880" y="400" width="34" height="50" rx="6"/><rect x="930" y="380" width="34" height="70" rx="6"/></g>
+    <g fill="#d80707"><rect x="980" y="350" width="34" height="100" rx="6"/><rect x="1030" y="320" width="34" height="130" rx="6"/><rect x="1080" y="280" width="34" height="170" rx="6"/></g>
+    <rect x="880" y="276" width="110" height="14" rx="7" fill="#0b0b0c"/>
+  </g>
+  <!-- follower badge -->
+  <g>
+    <rect x="860" y="130" width="230" height="84" rx="42" fill="#0b0b0c"/>
+    <circle cx="904" cy="172" r="26" fill="#d80707"/>
+    <path d="M896 172 h16 M904 164 v16" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="904" cy="165" r="0" fill="#fff"/>
+    <rect x="944" y="158" width="110" height="14" rx="7" fill="#ffffff"/>
+    <rect x="944" y="180" width="70" height="10" rx="5" fill="#8b8c90"/>
+  </g>
+  <path d="M790 300 C820 300 830 280 850 280" fill="none" stroke="#d80707" stroke-width="5" stroke-dasharray="4 12" stroke-linecap="round"/>
+</svg>

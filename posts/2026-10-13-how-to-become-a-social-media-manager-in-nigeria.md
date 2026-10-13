@@ -60,6 +60,46 @@ images:
       - "Hi Ada, I love your cakes and I've been following your page. 🎂"
       - "I noticed you post mostly photos and haven't shared any Reels yet. Short videos of your decorating process could bring you a lot more reach."
       - "I'm a social media manager and I'd be happy to share a free mini plan for your page. Would that be useful?"
+  - name: social-media-manager-at-work-illustration
+    type: illustration
+    src: illustrations/smm-at-work.png
+    alt: "Illustration of a Nigerian social media manager at her desk holding a phone, with a content calendar on her laptop and engagement notifications"
+    caption: "A social media manager plans, creates, publishes and reports, often all in one day."
+  - name: choose-a-social-media-niche-illustration
+    type: illustration
+    src: illustrations/choose-a-niche.png
+    alt: "Illustration of a target with an arrow in the centre, surrounded by social media niches: food, fashion, beauty and real estate"
+    caption: "Pick one niche to start with: it makes your learning and your pitch sharper."
+  - name: practise-social-media-management-real-accounts-illustration
+    type: illustration
+    src: illustrations/practise-real-accounts.png
+    alt: "Illustration of a 30-day posting calendar, an Instagram profile grid on a phone and a growing follower chart"
+    caption: "Treat practice accounts like real clients: post consistently for 30 days and track the growth."
+  - name: social-media-manager-tools-canva-capcut-illustration
+    type: illustration
+    src: illustrations/smm-toolkit.png
+    alt: "Illustration of a social media manager's toolkit: a tablet with a graphic being designed, a phone editing a short video and a ring light"
+    caption: "A phone, a design app, a video editor and good light are enough to start."
+  - name: social-media-manager-pitching-clients-on-whatsapp-illustration
+    type: illustration
+    src: illustrations/pitching-first-client.png
+    alt: "Illustration of a social media manager sending a WhatsApp pitch with a mini plan to a local cake shop, and receiving a reply"
+    caption: "Your first clients are often local businesses you can reach directly on WhatsApp."
+  - name: social-media-management-packages-pricing-nigeria-illustration
+    type: illustration
+    src: illustrations/pricing-packages.png
+    alt: "Illustration of three social media management packages, Starter, Growth and Premium, with a naira price tag"
+    caption: "Sell clear monthly packages instead of charging per post."
+  - name: social-media-monthly-report-illustration
+    type: illustration
+    src: illustrations/monthly-report.png
+    alt: "Illustration of a social media analytics dashboard on a laptop next to a three-point monthly report for a client"
+    caption: "A simple monthly report keeps clients happy and brings referrals."
+  - name: social-media-manager-mistakes-to-avoid-illustration
+    type: illustration
+    src: illustrations/common-mistakes.png
+    alt: "Illustration of a warning sign next to a checklist of social media management mistakes and good habits"
+    caption: "Avoid these mistakes and you will keep clients longer."
 faq:
   - q: "Do I need a degree to become a social media manager in Nigeria?"
     a: "No. Clients and employers care about what you can show them: a portfolio of real accounts you have managed, the results you got and how clearly you explain your work. A degree in marketing or mass communication can help, but it is not required."
@@ -96,6 +136,8 @@ A social media manager is responsible for how a brand shows up and performs on s
 - **Reporting:** tracking what worked, what did not, and explaining it to the client in plain language.
 - **Advertising (often):** running and monitoring paid ads on Meta or TikTok.
 
+{{image:social-media-manager-at-work-illustration}}
+
 In Nigeria, many businesses are run by busy owners who are managing their pages themselves. That is your opportunity: they need someone who can take this work off their hands and make it pay off.
 
 ## Step 1: Learn the core skills
@@ -118,6 +160,8 @@ Learn them in that order, because each one builds on the last.
 
 "I manage social media for anybody" is hard to sell. "I help restaurants in Lagos get more orders from Instagram" is easy to understand and easy to refer.
 
+{{image:choose-a-social-media-niche-illustration}}
+
 Pick a niche you already understand or have access to: food, fashion, beauty, real estate, churches, schools, events, or professional services. Your niche can change later. For now, it helps you focus your learning and your portfolio.
 
 ## Step 3: Practise on real accounts
@@ -127,6 +171,8 @@ Theory only gets you so far. You learn this job by doing it. Good places to prac
 - **Your own page:** treat it like a client. Set a goal, post consistently for 30 days and track the results.
 - **A friend's or family member's business:** offer to manage their page for one month, free or at a token fee, in exchange for honest feedback and permission to use the results.
 - **Your church, NYSC CDS group, school club or community organisation:** these always need help, and the work is real.
+
+{{image:practise-social-media-management-real-accounts-illustration}}
 
 Keep notes as you go: what the account looked like before, what you changed and what happened.
 
@@ -156,9 +202,13 @@ You can run an account professionally with free or low-cost tools:
 - **Google Sheets or Notion** for content calendars and reports.
 - **WhatsApp Business** for organised client communication.
 
+{{image:social-media-manager-tools-canva-capcut-illustration}}
+
 Ready-made templates save you hours here. Our [Social Media Manager Starter Kit](/starter-kit) gives you 50+ plug-and-play templates built for real client work.
 
 ## Step 6: Find your first clients
+
+{{image:social-media-manager-pitching-clients-on-whatsapp-illustration}}
 
 Your first clients will almost always come from people who already know you. Start there:
 
@@ -182,6 +232,8 @@ Many new social media managers undercharge, burn out and quit. Instead of pricin
 - Community management hours
 - A monthly report and review call
 
+{{image:social-media-management-packages-pricing-nigeria-illustration}}
+
 To find your price, estimate the hours the package will take, decide on a fair hourly rate for your skill level, and add any tools you pay for. Put everything in writing, collect at least part of the payment upfront, and review your prices every few months as your results grow.
 
 ## Step 8: Report results and keep learning
@@ -192,9 +244,13 @@ The fastest way to keep a client, and get referrals, is a monthly report that an
 2. What happened as a result?
 3. What will we do differently next month?
 
+{{image:social-media-monthly-report-illustration}}
+
 Platforms change constantly, so keep learning. Follow the official Meta and TikTok business blogs, study accounts in your niche, and keep improving your own skills.
 
 ## Common mistakes to avoid
+
+{{image:social-media-manager-mistakes-to-avoid-illustration}}
 
 - **Chasing followers instead of business results.** A client cares about enquiries and sales more than likes.
 - **Saying yes to everything.** Agree on the scope in writing before you start.

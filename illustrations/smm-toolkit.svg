@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f5f5f6"/><stop offset="1" stop-color="#fdf2f2"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <polygon points="1200,0 1200,260 940,0" fill="#d80707" opacity=".08"/>
+  <circle cx="100" cy="600" r="170" fill="#0b0b0c" opacity=".05"/>
+  <!-- desk line -->
+  <rect x="40" y="560" width="1120" height="20" rx="10" fill="#0b0b0c"/>
+  <!-- tablet with design editor -->
+  <g>
+    <rect x="80" y="150" width="520" height="400" rx="30" fill="#0b0b0c"/>
+    <rect x="100" y="170" width="480" height="360" rx="14" fill="#ffffff"/>
+    <rect x="100" y="170" width="70" height="360" rx="14" fill="#f5f5f6"/><rect x="150" y="170" width="20" height="360" fill="#f5f5f6"/>
+    <g fill="#c9cacd"><rect x="118" y="196" width="34" height="34" rx="8"/><rect x="118" y="246" width="34" height="34" rx="8"/><rect x="118" y="296" width="34" height="34" rx="8"/><rect x="118" y="346" width="34" height="34" rx="8"/></g>
+    <rect x="118" y="196" width="34" height="34" rx="8" fill="#d80707"/>
+    <!-- canvas post being designed -->
+    <rect x="215" y="200" width="250" height="300" rx="10" fill="#fdf2f2" stroke="#d80707" stroke-width="3" stroke-dasharray="8 6"/>
+    <rect x="240" y="226" width="200" height="130" rx="8" fill="#d80707"/>
+    <circle cx="300" cy="290" r="34" fill="#ffffff" opacity=".9"/>
+    <rect x="240" y="372" width="170" height="16" rx="8" fill="#0b0b0c"/>
+    <rect x="240" y="398" width="120" height="12" rx="6" fill="#5d5f64"/>
+    <rect x="240" y="440" width="96" height="34" rx="17" fill="#0b0b0c"/>
+    <!-- color swatches -->
+    <g><circle cx="510" cy="220" r="16" fill="#d80707"/><circle cx="510" cy="262" r="16" fill="#0b0b0c"/><circle cx="510" cy="304" r="16" fill="#5d5f64"/><circle cx="510" cy="346" r="16" fill="#ffd27a"/></g>
+  </g>
+  <!-- phone with video timeline -->
+  <g>
+    <rect x="660" y="120" width="230" height="430" rx="34" fill="#0b0b0c"/>
+    <rect x="674" y="136" width="202" height="398" rx="22" fill="#1d1d20"/>
+    <rect x="690" y="156" width="170" height="220" rx="12" fill="#5d5f64"/>
+    <circle cx="775" cy="250" r="34" fill="#ffffff" opacity=".9"/>
+    <polygon points="764,232 764,268 792,250" fill="#d80707"/>
+    <g><rect x="690" y="400" width="40" height="40" rx="6" fill="#d80707"/><rect x="734" y="400" width="56" height="40" rx="6" fill="#ffd27a"/><rect x="794" y="400" width="66" height="40" rx="6" fill="#f7c6cf"/></g>
+    <g><rect x="690" y="450" width="96" height="22" rx="6" fill="#2f8f5b"/><rect x="790" y="450" width="70" height="22" rx="6" fill="#3aa86b"/></g>
+    <rect x="752" y="390" width="4" height="96" fill="#ffffff"/>
+    <rect x="740" y="500" width="70" height="10" rx="5" fill="#8b8c90"/>
+  </g>
+  <!-- ring light -->
+  <g>
+    <circle cx="1030" cy="250" r="96" fill="none" stroke="#0b0b0c" stroke-width="24"/>
+    <circle cx="1030" cy="250" r="96" fill="none" stroke="#ffffff" stroke-width="10" opacity=".85"/>
+    <rect x="1024" y="346" width="12" height="214" fill="#0b0b0c"/>
+    <path d="M980 560 l50 -40 l50 40" fill="none" stroke="#0b0b0c" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <!-- floating icons -->
+  <g>
+    <rect x="610" y="70" width="80" height="80" rx="20" fill="#ffffff" stroke="#e6e6e9" stroke-width="4"/>
+    <rect x="630" y="92" width="40" height="36" rx="6" fill="none" stroke="#d80707" stroke-width="5"/><path d="M630 104 h40 M642 88 v8 M658 88 v8" stroke="#d80707" stroke-width="5"/>
+    <rect x="920" y="420" width="80" height="80" rx="20" fill="#ffffff" stroke="#e6e6e9" stroke-width="4"/>
+    <path d="M940 480 v-14 M954 480 v-26 M968 480 v-20 M982 480 v-34" stroke="#d80707" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>

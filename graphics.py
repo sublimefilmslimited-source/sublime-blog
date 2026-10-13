@@ -198,6 +198,8 @@ def _clean(text, src):
 
 
 def render(spec, src, out_dir, eyebrow):
+    if spec["type"] == "illustration":
+        return _save(Image.open(Path(src).parent / spec["src"]).convert("RGB"), spec, out_dir)
     spec = dict(spec)
     spec["title"] = _clean(spec["title"], src)
     spec["items"] = ([[_clean(a, src), _clean(b, src)] for a, b in spec["items"]] if spec["type"] == "table"
@@ -216,12 +218,15 @@ def render(spec, src, out_dir, eyebrow):
     else:
         raise ValueError(f"unknown image type {t}")
     _footer(c)
-    im = c.im.crop((0, 0, W, c.y))
+    return _save(c.im.crop((0, 0, W, c.y)), spec, out_dir)
+
+
+def _save(im, spec, out_dir):
     out_dir = Path(out_dir)
     exif = Image.Exif()
     exif[0x013B] = "Zelia Kafene, Sublime Media Limited"      # Artist
     exif[0x8298] = "© Sublime Media Limited"                   # Copyright
-    exif[0x010E] = spec.get("alt", spec["title"])              # ImageDescription
+    exif[0x010E] = spec.get("alt") or spec.get("title", "")              # ImageDescription
     jpg = out_dir / f"{spec['name']}.jpg"
     webp = out_dir / f"{spec['name']}.webp"
     im.save(jpg, "JPEG", quality=88, optimize=True, progressive=True, exif=exif)

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5f5f6"/><stop offset="1" stop-color="#fdf2f2"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="120" cy="120" r="170" fill="#0b0b0c" opacity=".05"/>
+  <polygon points="1200,675 1200,400 900,675" fill="#d80707" opacity=".08"/>
+  <!-- warning sign -->
+  <g>
+    <path d="M330 110 L560 520 a20 20 0 0 1 -17 30 H117 a20 20 0 0 1 -17 -30 L313 110 a10 10 0 0 1 17 0z" fill="#d80707"/>
+    <path d="M321 190 L490 500 H150z" fill="#ffffff"/>
+    <rect x="306" y="290" width="30" height="120" rx="15" fill="#0b0b0c"/>
+    <circle cx="321" cy="450" r="20" fill="#0b0b0c"/>
+  </g>
+  <!-- checklist of do / don't -->
+  <g font-family="Gilroy, Arial, sans-serif" font-weight="700">
+    <rect x="640" y="100" width="470" height="480" rx="28" fill="#ffffff" stroke="#e6e6e9" stroke-width="5"/>
+    <!-- X rows -->
+    <g>
+      <circle cx="700" cy="180" r="24" fill="#d80707"/><path d="M690 170 l20 20 M710 170 l-20 20" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+      <rect x="745" y="168" width="230" height="14" rx="7" fill="#0b0b0c"/><rect x="745" y="190" width="160" height="10" rx="5" fill="#c9cacd"/>
+      <circle cx="700" cy="270" r="24" fill="#d80707"/><path d="M690 260 l20 20 M710 260 l-20 20" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+      <rect x="745" y="258" width="200" height="14" rx="7" fill="#0b0b0c"/><rect x="745" y="280" width="180" height="10" rx="5" fill="#c9cacd"/>
+      <circle cx="700" cy="360" r="24" fill="#d80707"/><path d="M690 350 l20 20 M710 350 l-20 20" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+      <rect x="745" y="348" width="250" height="14" rx="7" fill="#0b0b0c"/><rect x="745" y="370" width="140" height="10" rx="5" fill="#c9cacd"/>
+    </g>
+    <line x1="680" y1="420" x2="1070" y2="420" stroke="#e6e6e9" stroke-width="4"/>
+    <!-- tick rows -->
+    <g>
+      <circle cx="700" cy="470" r="24" fill="#2f8f5b"/><path d="M688 470 l8 8 l16 -16" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="745" y="458" width="220" height="14" rx="7" fill="#0b0b0c"/><rect x="745" y="480" width="170" height="10" rx="5" fill="#c9cacd"/>
+      <circle cx="700" cy="535" r="24" fill="#2f8f5b"/><path d="M688 535 l8 8 l16 -16" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="745" y="523" width="190" height="14" rx="7" fill="#0b0b0c"/>
+    </g>
+  </g>
+  <!-- falling chart on side -->
+  <g>
+    <rect x="160" y="580" width="0" height="0"/>
+    <polyline points="520,600 570,580 610,610" fill="none" stroke="#0b0b0c" stroke-width="0"/>
+  </g>
+</svg>

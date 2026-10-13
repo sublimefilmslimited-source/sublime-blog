@@ -35,6 +35,16 @@ of every hour. **Whatever is pushed to `main` goes live within the hour.**
 - `name`: keyword-rich, hyphenated, unique (e.g. instagram-content-calendar-template).
 - `alt`: describe exactly what the image shows, using the topic naturally (no keyword stuffing).
 - `caption`: one helpful sentence. Keep item text short (one line label + short detail).
+- Also draw 4–6 original section illustrations (flat vector scenes, one per main H2 that has
+  no infographic): write `illustrations/<name>.svg` (1200x675, see existing SVGs for the house
+  style: soft pink/grey gradient background, one faint red and one faint black corner shape,
+  palette #d80707 #a90505 #0b0b0c #5d5f64 #c9cacd #f5f5f6 #fdf2f2 #ffd27a, greens #2f8f5b
+  #3aa86b, skin #8a5636, rounded shapes, thick black outlines sparingly, Gilroy text only for
+  short labels). People shown should look Nigerian. Render them with
+  `NODE_PATH=/opt/node22/lib/node_modules node tools/render_illustrations.js` (Playwright), then
+  add front matter entries with `type: illustration` and `src: illustrations/<name>.png`.
+  Look at each rendered PNG before publishing and fix overlaps. If rendering is impossible in
+  the environment, publish with the infographics only and say so in the final message.
 - Images get WebP + JPG, width/height, ImageObject schema and an image sitemap automatically.
 
 ## SEO checklist (every post)

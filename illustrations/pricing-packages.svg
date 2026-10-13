@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fdf2f2"/><stop offset="1" stop-color="#f5f5f6"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1100" cy="110" r="180" fill="#d80707" opacity=".07"/>
+  <polygon points="0,675 0,430 250,675" fill="#0b0b0c" opacity=".06"/>
+  <g font-family="Gilroy, Arial, sans-serif" font-weight="700">
+    <!-- basic -->
+    <rect x="110" y="200" width="290" height="360" rx="26" fill="#ffffff" stroke="#e6e6e9" stroke-width="5"/>
+    <text x="255" y="260" text-anchor="middle" font-size="30" fill="#0b0b0c">Starter</text>
+    <rect x="175" y="285" width="160" height="20" rx="10" fill="#c9cacd"/>
+    <g fill="#d80707"><circle cx="160" cy="350" r="11"/><circle cx="160" cy="395" r="11"/><circle cx="160" cy="440" r="11"/></g>
+    <g fill="#c9cacd"><rect x="185" y="343" width="170" height="14" rx="7"/><rect x="185" y="388" width="140" height="14" rx="7"/><rect x="185" y="433" width="150" height="14" rx="7"/></g>
+    <rect x="160" y="490" width="190" height="44" rx="22" fill="#0b0b0c"/>
+    <!-- standard (featured) -->
+    <rect x="455" y="140" width="290" height="440" rx="26" fill="#0b0b0c"/>
+    <rect x="530" y="122" width="140" height="40" rx="20" fill="#d80707"/>
+    <text x="600" y="150" text-anchor="middle" font-size="20" fill="#ffffff" letter-spacing="1">POPULAR</text>
+    <text x="600" y="215" text-anchor="middle" font-size="32" fill="#ffffff">Growth</text>
+    <rect x="510" y="240" width="180" height="24" rx="12" fill="#d80707"/>
+    <g fill="#d80707"><circle cx="505" cy="310" r="11"/><circle cx="505" cy="355" r="11"/><circle cx="505" cy="400" r="11"/><circle cx="505" cy="445" r="11"/></g>
+    <g fill="#5d5f64"><rect x="530" y="303" width="170" height="14" rx="7"/><rect x="530" y="348" width="150" height="14" rx="7"/><rect x="530" y="393" width="170" height="14" rx="7"/><rect x="530" y="438" width="130" height="14" rx="7"/></g>
+    <rect x="505" y="500" width="190" height="48" rx="24" fill="#d80707"/>
+    <!-- premium -->
+    <rect x="800" y="200" width="290" height="360" rx="26" fill="#ffffff" stroke="#e6e6e9" stroke-width="5"/>
+    <text x="945" y="260" text-anchor="middle" font-size="30" fill="#0b0b0c">Premium</text>
+    <rect x="865" y="285" width="160" height="20" rx="10" fill="#c9cacd"/>
+    <g fill="#d80707"><circle cx="850" cy="350" r="11"/><circle cx="850" cy="395" r="11"/><circle cx="850" cy="440" r="11"/></g>
+    <g fill="#c9cacd"><rect x="875" y="343" width="170" height="14" rx="7"/><rect x="875" y="388" width="160" height="14" rx="7"/><rect x="875" y="433" width="140" height="14" rx="7"/></g>
+    <rect x="850" y="490" width="190" height="44" rx="22" fill="#0b0b0c"/>
+  </g>
+  <!-- naira price tag -->
+  <g transform="rotate(-14 1000 150)">
+    <path d="M900 110 h170 a14 14 0 0 1 14 14 v62 a14 14 0 0 1 -14 14 h-170 l-40 -45z" fill="#d80707"/>
+    <circle cx="890" cy="155" r="10" fill="#fdf2f2"/>
+    <text x="990" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="56" fill="#ffffff">₦</text>
+  </g>
+  <!-- coins -->
+  <g>
+    <ellipse cx="160" cy="150" rx="48" ry="16" fill="#e0a800"/><rect x="112" y="118" width="96" height="32" fill="#ffd27a"/><ellipse cx="160" cy="118" rx="48" ry="16" fill="#ffe3a3"/>
+    <ellipse cx="160" cy="104" rx="48" ry="16" fill="#e0a800"/><rect x="112" y="72" width="96" height="32" fill="#ffd27a"/><ellipse cx="160" cy="72" rx="48" ry="16" fill="#ffe3a3"/>
+  </g>
+</svg>
