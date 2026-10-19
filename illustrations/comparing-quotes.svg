@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fdf2f2"/><stop offset="1" stop-color="#f5f5f6"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1100" cy="100" r="180" fill="#d80707" opacity=".07"/>
+  <polygon points="0,675 0,420 260,675" fill="#0b0b0c" opacity=".06"/>
+  <!-- floor / table -->
+  <rect x="40" y="560" width="520" height="22" rx="10" fill="#0b0b0c"/>
+  <rect x="80" y="582" width="20" height="93" fill="#0b0b0c"/>
+  <rect x="500" y="582" width="20" height="93" fill="#0b0b0c"/>
+  <!-- laptop on table -->
+  <rect x="70" y="395" width="230" height="160" rx="12" fill="#0b0b0c"/>
+  <rect x="82" y="407" width="206" height="136" rx="6" fill="#fff"/>
+  <rect x="96" y="420" width="90" height="10" rx="5" fill="#0b0b0c"/>
+  <rect x="96" y="442" width="170" height="8" rx="4" fill="#c9cacd"/>
+  <rect x="96" y="460" width="150" height="8" rx="4" fill="#c9cacd"/>
+  <rect x="96" y="478" width="160" height="8" rx="4" fill="#c9cacd"/>
+  <rect x="96" y="505" width="70" height="22" rx="11" fill="#d80707"/>
+  <rect x="50" y="550" width="270" height="12" rx="6" fill="#5d5f64"/>
+  <!-- woman -->
+  <g>
+    <rect x="345" y="575" width="150" height="100" rx="20" fill="#5d5f64"/>
+    <path d="M335 562 C335 460 365 420 420 420 C475 420 505 460 505 562 Z" fill="#0b0b0c"/>
+    <path d="M395 420 L420 470 L445 420 Z" fill="#d80707"/>
+    <rect x="406" y="372" width="28" height="50" rx="10" fill="#7a4a2e"/>
+    <circle cx="420" cy="340" r="54" fill="#8a5636"/>
+    <!-- gele head wrap -->
+    <path d="M360 318 C356 262 390 236 425 236 C468 236 492 266 482 318 C462 296 440 290 420 290 C396 290 378 298 360 318 Z" fill="#d80707"/>
+    <path d="M370 270 C400 240 450 236 490 262 C470 268 440 272 420 268 C400 266 385 268 370 270 Z" fill="#a90505"/>
+    <path d="M470 250 C500 230 520 250 506 276 C495 266 484 258 470 250 Z" fill="#d80707"/>
+    <circle cx="402" cy="342" r="5" fill="#1c120d"/><circle cx="438" cy="342" r="5" fill="#1c120d"/>
+    <path d="M404 368 Q420 362 436 368" fill="none" stroke="#1c120d" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="366" cy="350" r="7" fill="#ffd27a"/>
+    <!-- arm with phone -->
+    <path d="M485 470 C520 480 530 450 520 420" fill="none" stroke="#0b0b0c" stroke-width="34" stroke-linecap="round"/>
+    <circle cx="520" cy="414" r="17" fill="#8a5636"/>
+    <rect x="505" y="340" width="58" height="100" rx="10" fill="#0b0b0c" transform="rotate(10 534 390)"/>
+    <rect x="511" y="349" width="46" height="80" rx="5" fill="#fff" transform="rotate(10 534 390)"/>
+  </g>
+  <!-- thought: question mark -->
+  <circle cx="560" cy="250" r="40" fill="#fff" stroke="#e6e6e9" stroke-width="4"/>
+  <text x="560" y="268" text-anchor="middle" font-family="Gilroy, Arial, sans-serif" font-weight="700" font-size="48" fill="#d80707">?</text>
+  <!-- three quote cards -->
+  <g font-family="Gilroy, Arial, sans-serif" font-weight="700">
+    <g>
+      <rect x="650" y="150" width="150" height="380" rx="20" fill="#fff" stroke="#e6e6e9" stroke-width="5"/>
+      <text x="725" y="200" text-anchor="middle" font-size="26" fill="#0b0b0c">Quote A</text>
+      <text x="725" y="250" text-anchor="middle" font-size="34" fill="#5d5f64">₦</text>
+      <circle cx="680" cy="300" r="9" fill="#2f8f5b"/><rect x="698" y="294" width="80" height="12" rx="6" fill="#c9cacd"/>
+      <circle cx="680" cy="335" r="9" fill="#c9cacd"/><rect x="698" y="329" width="60" height="12" rx="6" fill="#e6e6e9"/>
+      <circle cx="680" cy="370" r="9" fill="#c9cacd"/><rect x="698" y="364" width="70" height="12" rx="6" fill="#e6e6e9"/>
+    </g>
+    <g>
+      <rect x="825" y="120" width="160" height="430" rx="20" fill="#0b0b0c"/>
+      <text x="905" y="172" text-anchor="middle" font-size="26" fill="#fff">Quote B</text>
+      <text x="905" y="225" text-anchor="middle" font-size="34" fill="#d80707">₦₦</text>
+      <circle cx="858" cy="275" r="9" fill="#3aa86b"/><rect x="876" y="269" width="85" height="12" rx="6" fill="#5d5f64"/>
+      <circle cx="858" cy="310" r="9" fill="#3aa86b"/><rect x="876" y="304" width="70" height="12" rx="6" fill="#5d5f64"/>
+      <circle cx="858" cy="345" r="9" fill="#3aa86b"/><rect x="876" y="339" width="80" height="12" rx="6" fill="#5d5f64"/>
+      <circle cx="858" cy="380" r="9" fill="#3aa86b"/><rect x="876" y="374" width="60" height="12" rx="6" fill="#5d5f64"/>
+      <rect x="850" y="480" width="110" height="40" rx="20" fill="#d80707"/>
+    </g>
+    <g>
+      <rect x="1010" y="150" width="150" height="380" rx="20" fill="#fff" stroke="#e6e6e9" stroke-width="5"/>
+      <text x="1085" y="200" text-anchor="middle" font-size="26" fill="#0b0b0c">Quote C</text>
+      <text x="1085" y="250" text-anchor="middle" font-size="34" fill="#5d5f64">₦₦₦</text>
+      <circle cx="1040" cy="300" r="9" fill="#2f8f5b"/><rect x="1058" y="294" width="80" height="12" rx="6" fill="#c9cacd"/>
+      <circle cx="1040" cy="335" r="9" fill="#2f8f5b"/><rect x="1058" y="329" width="70" height="12" rx="6" fill="#c9cacd"/>
+      <circle cx="1040" cy="370" r="9" fill="#2f8f5b"/><rect x="1058" y="364" width="80" height="12" rx="6" fill="#c9cacd"/>
+      <circle cx="1040" cy="405" r="9" fill="#2f8f5b"/><rect x="1058" y="399" width="60" height="12" rx="6" fill="#c9cacd"/>
+      <circle cx="1040" cy="440" r="9" fill="#2f8f5b"/><rect x="1058" y="434" width="75" height="12" rx="6" fill="#c9cacd"/>
+    </g>
+  </g>
+</svg>

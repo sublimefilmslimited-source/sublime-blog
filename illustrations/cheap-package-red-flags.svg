@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fdf2f2"/><stop offset="1" stop-color="#f5f5f6"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="120" r="170" fill="#d80707" opacity=".08"/>
+  <polygon points="0,0 230,0 0,230" fill="#0b0b0c" opacity=".06"/>
+  <g font-family="Gilroy, Arial, sans-serif" font-weight="700">
+    <!-- package card -->
+    <rect x="110" y="140" width="380" height="440" rx="28" fill="#fff" stroke="#e6e6e9" stroke-width="5"/>
+    <rect x="190" y="118" width="220" height="48" rx="24" fill="#ffd27a"/>
+    <text x="300" y="151" text-anchor="middle" font-size="24" fill="#0b0b0c">SUPER CHEAP</text>
+    <text x="300" y="235" text-anchor="middle" font-size="34" fill="#0b0b0c">“Page package”</text>
+    <rect x="200" y="260" width="200" height="20" rx="10" fill="#c9cacd"/>
+    <g fill="#c9cacd"><rect x="170" y="320" width="260" height="16" rx="8"/><rect x="170" y="360" width="220" height="16" rx="8"/><rect x="170" y="400" width="240" height="16" rx="8"/><rect x="170" y="440" width="180" height="16" rx="8"/></g>
+    <rect x="200" y="500" width="200" height="48" rx="24" fill="#0b0b0c"/>
+    <!-- magnifying glass -->
+    <circle cx="420" cy="380" r="110" fill="#fdf2f2" fill-opacity=".55" stroke="#0b0b0c" stroke-width="14"/>
+    <path d="M498 458 L570 530" stroke="#0b0b0c" stroke-width="30" stroke-linecap="round"/>
+    <path d="M375 345 l30 30 M405 345 l-30 30" stroke="#d80707" stroke-width="10" stroke-linecap="round"/>
+    <path d="M425 395 l30 30 M455 395 l-30 30" stroke="#d80707" stroke-width="10" stroke-linecap="round"/>
+    <!-- red flags list -->
+    <g>
+      <rect x="660" y="150" width="440" height="100" rx="22" fill="#fff" stroke="#e6e6e9" stroke-width="4"/>
+      <rect x="695" y="172" width="8" height="58" rx="4" fill="#0b0b0c"/>
+      <path d="M703 174 h44 l-12 14 l12 14 h-44z" fill="#d80707"/>
+      <text x="775" y="212" font-size="30" fill="#0b0b0c">Fake followers</text>
+    </g>
+    <g>
+      <rect x="660" y="285" width="440" height="100" rx="22" fill="#fff" stroke="#e6e6e9" stroke-width="4"/>
+      <rect x="695" y="307" width="8" height="58" rx="4" fill="#0b0b0c"/>
+      <path d="M703 309 h44 l-12 14 l12 14 h-44z" fill="#d80707"/>
+      <text x="775" y="347" font-size="30" fill="#0b0b0c">No report</text>
+    </g>
+    <g>
+      <rect x="660" y="420" width="440" height="100" rx="22" fill="#fff" stroke="#e6e6e9" stroke-width="4"/>
+      <rect x="695" y="442" width="8" height="58" rx="4" fill="#0b0b0c"/>
+      <path d="M703 444 h44 l-12 14 l12 14 h-44z" fill="#d80707"/>
+      <text x="775" y="482" font-size="30" fill="#0b0b0c">No contract</text>
+    </g>
+    <!-- warning triangle -->
+    <path d="M1030 560 l40 70 h-80z" fill="#d80707" stroke="#d80707" stroke-width="10" stroke-linejoin="round"/>
+    <rect x="1026" y="580" width="8" height="26" rx="4" fill="#fff"/>
+    <circle cx="1030" cy="618" r="5" fill="#fff"/>
+  </g>
+</svg>
