@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs><linearGradient id="bgr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5f5f6"/><stop offset="1" stop-color="#fdf2f2"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bgr)"/>
+  <circle cx="1100" cy="110" r="180" fill="#d80707" opacity=".07"/>
+  <polygon points="0,675 0,420 260,675" fill="#0b0b0c" opacity=".06"/>
+  <!-- stairs -->
+  <g fill="#c9cacd">
+    <rect x="120" y="520" width="220" height="155"/>
+    <rect x="340" y="430" width="220" height="245"/>
+    <rect x="560" y="340" width="220" height="335"/>
+  </g>
+  <rect x="780" y="250" width="240" height="425" fill="#0b0b0c"/>
+  <g fill="#5d5f64"><rect x="120" y="520" width="220" height="14"/><rect x="340" y="430" width="220" height="14"/><rect x="560" y="340" width="220" height="14"/></g>
+  <!-- price tags -->
+  <g font-family="Arial, sans-serif" font-weight="700">
+    <g transform="rotate(-10 230 470)"><path d="M180 440 h100 a10 10 0 0 1 10 10 v40 a10 10 0 0 1 -10 10 h-100 l-28 -30z" fill="#ffffff" stroke="#0b0b0c" stroke-width="5"/><circle cx="178" cy="470" r="7" fill="#0b0b0c"/><text x="240" y="485" text-anchor="middle" font-size="34" fill="#5d5f64">₦</text></g>
+    <g transform="rotate(-10 450 380)"><path d="M390 345 h120 a10 10 0 0 1 10 10 v50 a10 10 0 0 1 -10 10 h-120 l-32 -35z" fill="#ffffff" stroke="#0b0b0c" stroke-width="5"/><circle cx="388" cy="380" r="8" fill="#0b0b0c"/><text x="460" y="396" text-anchor="middle" font-size="38" fill="#a90505">₦₦</text></g>
+    <g transform="rotate(-10 670 280)"><path d="M600 240 h140 a12 12 0 0 1 12 12 v58 a12 12 0 0 1 -12 12 h-140 l-36 -41z" fill="#d80707"/><circle cx="598" cy="281" r="9" fill="#fdf2f2"/><text x="680" y="298" text-anchor="middle" font-size="42" fill="#ffffff">₦₦₦</text></g>
+  </g>
+  <!-- person on top -->
+  <g>
+    <rect x="868" y="200" width="22" height="52" rx="8" fill="#0b0b0c"/><rect x="910" y="200" width="22" height="52" rx="8" fill="#0b0b0c"/>
+    <rect x="860" y="200" width="80" height="20" fill="#5d5f64"/>
+    <path d="M850 210 C850 140 870 112 900 112 C930 112 950 140 950 210 Z" fill="#2f8f5b"/>
+    <path d="M862 140 C830 110 820 90 830 70" fill="none" stroke="#2f8f5b" stroke-width="26" stroke-linecap="round"/>
+    <circle cx="830" cy="66" r="15" fill="#8a5636"/>
+    <rect x="890" y="90" width="20" height="28" rx="8" fill="#7a4a2e"/>
+    <circle cx="900" cy="66" r="36" fill="#8a5636"/>
+    <path d="M864 62 C864 36 880 26 900 26 C922 26 936 36 936 62 C926 46 912 42 900 42 C886 42 872 48 864 62 Z" fill="#1c120d"/>
+    <circle cx="888" cy="70" r="4" fill="#1c120d"/><circle cx="912" cy="70" r="4" fill="#1c120d"/>
+    <path d="M890 84 Q900 92 910 84" fill="none" stroke="#1c120d" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  <!-- growth chart card -->
+  <g>
+    <rect x="1040" y="380" width="130" height="180" rx="16" fill="#ffffff" stroke="#e6e6e9" stroke-width="4"/>
+    <polyline points="1060,530 1090,500 1115,510 1150,440" fill="none" stroke="#3aa86b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="1158,426 1160,456 1136,446" fill="#3aa86b"/>
+  </g>
+    <g fill="#d80707"><path d="M1040 220 l8 20 l20 8 l-20 8 l-8 20 l-8 -20 l-20 -8 l20 -8z"/></g>
+</svg>
