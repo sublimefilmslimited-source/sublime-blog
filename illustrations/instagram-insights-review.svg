@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fdf2f2"/><stop offset="1" stop-color="#f5f5f6"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1100" cy="100" r="180" fill="#d80707" opacity=".07"/>
+  <polygon points="0,675 0,420 260,675" fill="#0b0b0c" opacity=".06"/>
+
+  <rect x="300" y="520" width="860" height="24" rx="10" fill="#0b0b0c"/>
+  <rect x="340" y="544" width="20" height="131" fill="#0b0b0c"/><rect x="1100" y="544" width="20" height="131" fill="#0b0b0c"/>
+  <rect x="520" y="200" width="460" height="310" rx="16" fill="#0b0b0c"/>
+  <rect x="536" y="216" width="428" height="278" rx="8" fill="#fff"/>
+  <rect x="490" y="508" width="520" height="14" rx="7" fill="#5d5f64"/>
+  <rect x="556" y="236" width="150" height="14" rx="7" fill="#0b0b0c"/>
+  <rect x="556" y="380" width="30" height="50" rx="6" fill="#c9cacd"/><rect x="600" y="350" width="30" height="80" rx="6" fill="#c9cacd"/><rect x="644" y="360" width="30" height="70" rx="6" fill="#c9cacd"/><rect x="688" y="310" width="30" height="120" rx="6" fill="#d80707"/><rect x="732" y="280" width="30" height="150" rx="6" fill="#d80707"/>
+  <polyline points="800,420 840,390 880,400 920,330 950,290" fill="none" stroke="#2f8f5b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="Gilroy, Arial, sans-serif" font-weight="700" font-size="20">
+    <rect x="556" y="448" width="120" height="34" rx="17" fill="#fdf2f2"/><text x="616" y="472" text-anchor="middle" fill="#d80707">Reach</text>
+    <rect x="690" y="448" width="120" height="34" rx="17" fill="#f5f5f6"/><text x="750" y="472" text-anchor="middle" fill="#0b0b0c">Shares</text>
+    <rect x="824" y="448" width="120" height="34" rx="17" fill="#2f8f5b"/><text x="884" y="472" text-anchor="middle" fill="#fff">DMs</text>
+  </g>
+  <g>
+    <path d="M145 522 C145 420 175 380 230 380 C285 380 315 420 315 522 Z" fill="#0b0b0c"/>
+    <rect x="216" y="332" width="28" height="50" rx="10" fill="#7a4a2e"/>
+    <circle cx="230" cy="300" r="54" fill="#8a5636"/>
+    <path d="M170 278 C166 222 200 196 235 196 C278 196 302 226 292 278 C272 256 250 250 230 250 C206 250 188 258 170 278 Z" fill="#d80707"/>
+    <path d="M180 230 C210 200 260 196 300 222 C280 228 250 232 230 228 C210 226 195 228 180 230 Z" fill="#a90505"/>
+    <circle cx="212" cy="302" r="5" fill="#1c120d"/><circle cx="248" cy="302" r="5" fill="#1c120d"/>
+    <path d="M214 328 Q230 338 246 328" fill="none" stroke="#1c120d" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="176" cy="310" r="7" fill="#ffd27a"/>
+  </g>
+  <path d="M300 440 C360 470 420 480 480 470" fill="none" stroke="#0b0b0c" stroke-width="32" stroke-linecap="round"/><circle cx="486" cy="468" r="17" fill="#8a5636"/>
+  <rect x="1010" y="440" width="120" height="80" rx="8" fill="#ffd27a"/><rect x="1026" y="456" width="80" height="8" rx="4" fill="#0b0b0c"/><rect x="1026" y="474" width="64" height="8" rx="4" fill="#a90505"/><rect x="1026" y="492" width="72" height="8" rx="4" fill="#0b0b0c"/>
+  <rect x="1010" y="110" width="130" height="130" rx="14" fill="#fff" stroke="#e6e6e9" stroke-width="5"/><rect x="1010" y="110" width="130" height="36" rx="14" fill="#d80707"/>
+  <text x="1075" y="214" text-anchor="middle" font-family="Gilroy, Arial, sans-serif" font-weight="700" font-size="48" fill="#0b0b0c">30</text>
+</svg>

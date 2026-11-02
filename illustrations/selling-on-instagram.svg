@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fdf2f2"/><stop offset="1" stop-color="#f5f5f6"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1100" cy="100" r="180" fill="#d80707" opacity=".07"/>
+  <polygon points="0,675 0,420 260,675" fill="#0b0b0c" opacity=".06"/>
+
+  <!-- shop shelf -->
+  <rect x="60" y="120" width="380" height="16" rx="6" fill="#0b0b0c"/>
+  <rect x="60" y="250" width="380" height="16" rx="6" fill="#0b0b0c"/>
+  <rect x="80" y="62" width="60" height="58" rx="8" fill="#d80707"/><rect x="155" y="78" width="50" height="42" rx="8" fill="#ffd27a"/><rect x="220" y="56" width="70" height="64" rx="8" fill="#5d5f64"/><rect x="305" y="74" width="54" height="46" rx="8" fill="#3aa86b"/>
+  <rect x="90" y="196" width="80" height="54" rx="8" fill="#0b0b0c"/><rect x="185" y="186" width="60" height="64" rx="8" fill="#d80707"/><rect x="260" y="204" width="70" height="46" rx="8" fill="#c9cacd"/><rect x="345" y="192" width="60" height="58" rx="8" fill="#ffd27a"/>
+  <!-- counter -->
+  <rect x="40" y="560" width="620" height="24" rx="10" fill="#0b0b0c"/>
+  <rect x="70" y="584" width="560" height="91" fill="#5d5f64"/>
+  <g>
+    <path d="M345 552 C345 450 375 410 430 410 C485 410 515 450 515 552 Z" fill="#d80707"/>
+    <rect x="416" y="362" width="28" height="50" rx="10" fill="#7a4a2e"/>
+    <circle cx="430" cy="330" r="54" fill="#8a5636"/>
+    <path d="M370 308 C366 252 400 226 435 226 C478 226 502 256 492 308 C472 286 450 280 430 280 C406 280 388 288 370 308 Z" fill="#0b0b0c"/>
+    <path d="M380 260 C410 230 460 226 500 252 C480 258 450 262 430 258 C410 256 395 258 380 260 Z" fill="#5d5f64"/>
+    <circle cx="412" cy="332" r="5" fill="#1c120d"/><circle cx="448" cy="332" r="5" fill="#1c120d"/>
+    <path d="M414 358 Q430 368 446 358" fill="none" stroke="#1c120d" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="376" cy="340" r="7" fill="#ffd27a"/>
+  </g>
+  <!-- arm holding phone -->
+  <path d="M500 470 C560 460 600 420 640 380" fill="none" stroke="#d80707" stroke-width="34" stroke-linecap="round"/>
+  <circle cx="650" cy="372" r="18" fill="#8a5636"/>
+  <!-- order bags and box -->
+  <path d="M110 470 L210 470 L200 560 L120 560 Z" fill="#d80707"/><path d="M135 470 C135 430 185 430 185 470" fill="none" stroke="#0b0b0c" stroke-width="6"/>
+  <rect x="225" y="480" width="110" height="80" rx="6" fill="#ffd27a"/><rect x="225" y="480" width="110" height="18" fill="#c9a24f"/><rect x="272" y="480" width="16" height="80" fill="#fff" opacity=".6"/>
+  <g><rect x="750" y="150" width="210" height="400" rx="28" fill="#0b0b0c"/>
+    <rect x="762" y="164" width="186" height="372" rx="18" fill="#fff"/><circle cx="800" cy="200" r="26" fill="#d80707"/><rect x="838" y="186" width="90" height="12" rx="6" fill="#0b0b0c"/><rect x="838" y="206" width="70" height="10" rx="5" fill="#c9cacd"/>
+<rect x="776" y="232" width="78" height="20" rx="10" fill="#d80707"/><rect x="860" y="232" width="78" height="20" rx="10" fill="#2f8f5b"/><rect x="772" y="262" width="52" height="66" rx="6" fill="#d80707"/><rect x="830" y="262" width="52" height="66" rx="6" fill="#ffd27a"/><rect x="888" y="262" width="52" height="66" rx="6" fill="#0b0b0c"/><rect x="772" y="334" width="52" height="66" rx="6" fill="#c9cacd"/><rect x="830" y="334" width="52" height="66" rx="6" fill="#d80707"/><rect x="888" y="334" width="52" height="66" rx="6" fill="#3aa86b"/><rect x="772" y="406" width="52" height="66" rx="6" fill="#5d5f64"/><rect x="830" y="406" width="52" height="66" rx="6" fill="#fdf2f2"/><rect x="888" y="406" width="52" height="66" rx="6" fill="#d80707"/></g>
+  <!-- DM bubbles -->
+  <g font-family="Gilroy, Arial, sans-serif" font-weight="700">
+    <rect x="985" y="230" width="170" height="60" rx="24" fill="#fff" stroke="#e6e6e9" stroke-width="4"/><text x="1070" y="268" text-anchor="middle" font-size="24" fill="#0b0b0c">How much?</text>
+    <rect x="985" y="320" width="170" height="60" rx="24" fill="#2f8f5b"/><text x="1070" y="358" text-anchor="middle" font-size="24" fill="#fff">₦28,000</text>
+    <rect x="985" y="410" width="170" height="60" rx="24" fill="#d80707"/><text x="1070" y="448" text-anchor="middle" font-size="24" fill="#fff">Ordered!</text>
+  </g>
+</svg>
