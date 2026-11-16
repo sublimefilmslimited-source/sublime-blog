@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fdf2f2"/><stop offset="1" stop-color="#f5f5f6"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1060" cy="560" r="210" fill="#d80707" opacity=".07"/>
+  <polygon points="0,0 230,0 0,230" fill="#0b0b0c" opacity=".06"/>
+  <!-- person -->
+  <g>
+    <rect x="160" y="520" width="240" height="155" rx="30" fill="#0b0b0c"/>
+    <path d="M150 600 C150 450 200 400 280 400 C360 400 410 450 410 600 Z" fill="#0b0b0c"/>
+    <path d="M250 400 L280 450 L310 400 Z" fill="#ffffff"/>
+    <rect x="264" y="350" width="32" height="56" rx="12" fill="#7a4a2e"/>
+    <circle cx="280" cy="300" r="70" fill="#8a5636"/>
+    <!-- short hair -->
+    <path d="M212 286 C210 236 240 220 280 220 C322 220 352 238 348 286 C340 262 316 252 280 252 C246 252 222 262 212 286 Z" fill="#1c120d"/>
+    <!-- beard -->
+    <path d="M228 320 C232 366 258 380 280 380 C302 380 328 366 332 320 C322 346 302 356 280 356 C258 356 238 346 228 320 Z" fill="#1c120d"/>
+    <circle cx="256" cy="302" r="6" fill="#1c120d"/><circle cx="304" cy="302" r="6" fill="#1c120d"/>
+    <path d="M264 334 Q280 344 296 334" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="210" cy="306" r="12" fill="#8a5636"/><circle cx="350" cy="306" r="12" fill="#8a5636"/>
+    <!-- arm up holding phone -->
+    <path d="M380 480 C430 470 450 420 450 360" fill="none" stroke="#0b0b0c" stroke-width="44" stroke-linecap="round"/>
+    <circle cx="452" cy="340" r="22" fill="#8a5636"/>
+  </g>
+  <!-- phone -->
+  <g transform="rotate(8 470 290)">
+    <rect x="420" y="180" width="110" height="200" rx="18" fill="#0b0b0c"/>
+    <rect x="428" y="194" width="94" height="172" rx="10" fill="#ffffff"/>
+    <rect x="438" y="214" width="74" height="40" rx="8" fill="#d80707"/>
+    <!-- link icon -->
+    <g fill="none" stroke="#0b0b0c" stroke-width="6" stroke-linecap="round">
+      <rect x="440" y="282" width="38" height="22" rx="11"/>
+      <rect x="472" y="282" width="38" height="22" rx="11"/>
+    </g>
+    <rect x="440" y="324" width="70" height="10" rx="5" fill="#c9cacd"/>
+  </g>
+  <!-- dotted paths -->
+  <g fill="none" stroke="#d80707" stroke-width="5" stroke-dasharray="4 14" stroke-linecap="round">
+    <path d="M560 240 C640 160 700 140 760 140"/>
+    <path d="M560 290 C650 300 700 330 760 330"/>
+    <path d="M560 340 C640 440 700 510 760 520"/>
+  </g>
+  <!-- website card -->
+  <g>
+    <rect x="770" y="70" width="330" height="140" rx="22" fill="#ffffff" stroke="#e6e6e9" stroke-width="4"/>
+    <rect x="770" y="70" width="330" height="36" rx="18" fill="#0b0b0c"/><rect x="770" y="90" width="330" height="16" fill="#0b0b0c"/>
+    <circle cx="794" cy="88" r="6" fill="#d80707"/><circle cx="814" cy="88" r="6" fill="#ffd27a"/><circle cx="834" cy="88" r="6" fill="#3aa86b"/>
+    <text x="796" y="152" font-family="Gilroy, Arial, sans-serif" font-weight="700" font-size="26" fill="#0b0b0c">WEBSITE</text>
+    <rect x="796" y="168" width="180" height="11" rx="5.5" fill="#c9cacd"/>
+    <rect x="1000" y="128" width="78" height="60" rx="8" fill="#f7c6cf"/>
+  </g>
+  <!-- PDF card -->
+  <g>
+    <rect x="770" y="260" width="330" height="140" rx="22" fill="#ffffff" stroke="#e6e6e9" stroke-width="4"/>
+    <path d="M800 284 h56 l22 22 v74 h-78 z" fill="#d80707"/>
+    <path d="M856 284 v22 h22" fill="#a90505"/>
+    <text x="839" y="356" text-anchor="middle" font-family="Gilroy, Arial, sans-serif" font-weight="700" font-size="20" fill="#ffffff">PDF</text>
+    <text x="902" y="322" font-family="Gilroy, Arial, sans-serif" font-weight="700" font-size="22" fill="#0b0b0c">CASE STUDIES</text>
+    <rect x="902" y="342" width="150" height="11" rx="5.5" fill="#c9cacd"/>
+  </g>
+  <!-- WhatsApp chat card -->
+  <g>
+    <rect x="770" y="450" width="330" height="150" rx="22" fill="#efe7de" stroke="#e6e6e9" stroke-width="4"/>
+    <rect x="850" y="470" width="230" height="52" rx="16" fill="#dcf8c6"/>
+    <rect x="866" y="484" width="150" height="10" rx="5" fill="#0b0b0c" opacity=".7"/>
+    <rect x="866" y="502" width="100" height="9" rx="4.5" fill="#2f8f5b"/>
+    <rect x="790" y="536" width="190" height="48" rx="16" fill="#ffffff"/>
+    <rect x="806" y="552" width="130" height="10" rx="5" fill="#0b0b0c" opacity=".7"/>
+    <circle cx="1048" cy="560" r="26" fill="#3aa86b"/>
+    <path d="M1036 560 l8 8 l15 -16" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g fill="#d80707"><path d="M600 110 l8 20 l20 8 l-20 8 l-8 20 l-8 -20 l-20 -8 l20 -8z"/></g>
+</svg>
