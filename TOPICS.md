@@ -8,7 +8,7 @@ SMM = for aspiring/working social media managers (cta: school). BIZ = for busine
 - [x] SMM — How to price your social media management services in Nigeria → /blog/how-to-price-social-media-management-services/
 - [x] BIZ — Instagram marketing for small businesses in Nigeria: a practical playbook → /blog/instagram-marketing-for-small-businesses/
 - [x] SMM — How to build a social media manager portfolio with no experience → /blog/social-media-manager-portfolio/
-- [ ] BIZ — Should you hire a social media manager or an agency? (pros, cons, costs)
+- [x] BIZ — Should you hire a social media manager or an agency? (pros, cons, costs) → /blog/social-media-manager-or-agency/
 - [ ] SMM — Social media content calendar: how to plan a month of posts (free template outline)
 - [ ] BIZ — How to run Instagram and Facebook ads in Nigeria (beginner's guide, budget in ₦)
 - [ ] SMM — How to get social media management clients (pitching scripts that work)
